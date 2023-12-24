@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lato", sans-serif;
+  background: #234545;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+a {
+  text-decoration: none;
+}
+.header-content {
+  display: flex;
+  justify-content: space-around;
+  background: #d9d9d9;
+  padding: 15px 30px;
+}
+
+.header-content a {
+  color: #000;
+}
+.links {
+  display: flex;
+  gap: 70px;
+  align-items: center;
+}
+img {
+  width: 262px;
+  border-radius: 10px;
+}
+.links a {
+  color: #164b4b;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.links a:hover {
+  color: #fff;
+  transition: 0.5s ease-in;
+  transform: scale(0.9);
+}
+#hero {
+  padding-top: 60px;
+}
+.hero {
+  width: 100%;
+  min-height: 100vh;
+  background: rgba(255, 255, 255, 0.233);
+  border-radius: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+  gap: 20px;
+}
+.hero-content {
+  background: #000;
+  width: 262px;
+  height: 100%;
+  border-radius: 10px;
+  background: #234545;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 2px;
+}
+.add-content {
+  background: #000;
+  width: 562px;
+  height: 100%;
+  padding: 50px;
+  border-radius: 10px;
+  background: #234545;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 2px;
+}
+#addUserForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.btn-wrk button {
+  padding: 10px 50px;
+  width: 200px;
+}
+.btn-create {
+  border-radius: 20px;
+  background: #2b9797;
+  color: #164b4b;
+  border: none;
+}
+.btn-cancel {
+  border-radius: 20px;
+  background: #164b4b;
+  color: #fff;
+  border: none;
+}
+#addUserForm input {
+  padding: 10px;
+  width: 400px;
+  border-radius: 15px;
+  border: none;
+}
+.logo {
+  width: 80px;
+}
+.user-card button.favorite {
+  background-color: red;
+  color: white;
+}

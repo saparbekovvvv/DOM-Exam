@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="container"></div>
+      <div class="header-content">
+        <img
+          class="logo"
+          src="./images/Frame 11.png"
+          width="80px"
+          alt=""
+          style="position: relative"
+        />
+
+        <div class="links">
+          <a href="index.html">Home</a>
+          <a href="favorite.html">Favorite</a>
+          <a href="admin.html">Admin</a>
+        </div>
+      </div>
+    </header>
+    <section id="hero">
+      <div class="container">
+        <div class="hero">
+          <div class="add-content">
+            <h1>Todo</h1>
+
+            <form id="addUserForm">
+              <label for="newUserNameInput">Name:</label>
+              <input
+                type="text"
+                id="newUserNameInput"
+                name="name"
+                required
+                placeholder="Name"
+              />
+              <br />
+              <label for="newUserLastNameInput">Last Name:</label>
+              <input
+                type="text"
+                id="newUserLastNameInput"
+                name="lastName"
+                required
+                placeholder="Last Name"
+              />
+              <br />
+              <label for="newUserImageInput">Image URL:</label>
+              <input
+                type="text"
+                id="newUserImageInput"
+                placeholder="Image URL"
+              />
+              <br />
+              <br />
+              <div class="btn-wrk">
+                <button
+                  class="btn-cancel"
+                  type="button"
+                  onclick="cancelAddUser()"
+                >
+                  Cancel
+                </button>
+                <button class="btn-create" type="button" onclick="addUser()">
+                  Create
+                </button>
+              </div>
+            </form>
+
+            <div id="userListContainer" class="user-list"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="main.js"></script>
+    <script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
+  </body>
+</html>
